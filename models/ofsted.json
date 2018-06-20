@@ -11,8 +11,7 @@
       "maxLength": 14
     },
     "uprn": {
-      "type": "integer",
-      "maxLength": 14
+      "type": "string"
     },
     "establishmentName": {
       "type": "string"

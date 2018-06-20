@@ -66,7 +66,7 @@ describe('Ofsted tests', function () {
 
   it('Should be the correct data in the database', function (done) {
     client.query(
-      'select urn, school_name, ofsted_phase, region, local_authority, postcode, TO_CHAR(inspection_date, \'DD/MM/YYYY\') AS inspection_date, overall_effectiveness, effectiveness_of_leadership from ofsted.ofsted order by urn;',
+      'select urn, uprn, establishment_name, ofsted_rating from ofsted.ofsted order by urn;',
       function (err, result) {
         if (err) {
           done(err)
@@ -74,125 +74,22 @@ describe('Ofsted tests', function () {
           expect(result.rows).to.eql(
             [
               {
-                urn: '100000',
-                school_name: 'Bordesley Green East Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B33 8QB',
-                inspection_date: '22/01/2015',
-                overall_effectiveness: 2,
-                effectiveness_of_leadership: 2
+                urn: '20043',
+                uprn: '100071486317',
+                establishment_name: 'Adderley Children\'s Centre',
+                ofsted_rating: 'Good'
               },
               {
-                urn: '100001',
-                school_name: 'Brearley Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B19 3XJ',
-                inspection_date: '05/12/2014',
-                overall_effectiveness: 1,
-                effectiveness_of_leadership: 1
+                urn: '20049',
+                uprn: '',
+                establishment_name: 'Merrishaw Albert Bradbeer Children\'s Centre',
+                ofsted_rating: 'Bad'
               },
               {
-                urn: '100002',
-                school_name: 'Garretts Green Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B26 2JL',
-                inspection_date: '02/11/2012',
-                overall_effectiveness: 2,
-                effectiveness_of_leadership: 2
-              },
-              {
-                urn: '100003',
-                school_name: 'Perry Beeches Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B42 2PX',
-                inspection_date: '27/09/2012',
-                overall_effectiveness: 2,
-                effectiveness_of_leadership: 2
-              },
-              {
-                urn: '100004',
-                school_name: 'St Thomas Centre Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B15 2AF',
-                inspection_date: '12/12/2013',
-                overall_effectiveness: 1,
-                effectiveness_of_leadership: 1
-              },
-              {
-                urn: '100005',
-                school_name: 'Highfield Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B8 3QU',
-                inspection_date: '27/02/2014',
-                overall_effectiveness: 2,
-                effectiveness_of_leadership: 2
-              },
-              {
-                urn: '100006',
-                school_name: 'Marsh Hill Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B23 7HG',
-                inspection_date: '13/12/2013',
-                overall_effectiveness: 1,
-                effectiveness_of_leadership: 1
-              },
-              {
-                urn: '100007',
-                school_name: 'West Heath Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B31 3HB',
-                inspection_date: '04/10/2013',
-                overall_effectiveness: 2,
-                effectiveness_of_leadership: 2
-              },
-              {
-                urn: '100008',
-                school_name: 'Goodway Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B44 8RL',
-                inspection_date: '12/09/2014',
-                overall_effectiveness: 2,
-                effectiveness_of_leadership: 2
-              },
-              {
-                urn: '100009',
-                school_name: 'Kings Norton Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B38 8SY',
-                inspection_date: '31/01/2013',
-                overall_effectiveness: 1,
-                effectiveness_of_leadership: 1
-              },
-              {
-                urn: '100010',
-                school_name: 'Rubery Nursery School',
-                ofsted_phase: 'Nursery',
-                region: 'West Midlands',
-                local_authority: 'Birmingham',
-                postcode: 'B45 9PB',
-                inspection_date: null,
-                overall_effectiveness: null,
-                effectiveness_of_leadership: null
+                urn: '20064',
+                uprn: '10003595720',
+                establishment_name: 'The All Saints Children\'s Centre',
+                ofsted_rating: 'OK'
               }
             ]
           )
@@ -201,9 +98,10 @@ describe('Ofsted tests', function () {
       }
     )
   })
+
   it('Should remove the data in the database', function (done) {
     client.query(
-      `delete from ofsted.ofsted where urn::text like '1000%';`,
+      `drop table ofsted.ofsted cascade;`,
       function (err, result) {
         if (err) {
           done(err)
