@@ -14,30 +14,11 @@
       "type": "integer",
       "maxLength": 14
     },
-    "schoolName": {
+    "establishmentName": {
       "type": "string"
     },
-    "ofstedPhase": {
+    "ofstedRating": {
       "type": "string"
-    },
-    "region": {
-      "type": "string"
-    },
-    "localAuthority": {
-      "type": "string"
-    },
-    "postcode": {
-      "type": "string"
-    },
-    "inspectionDate": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "overallEffectiveness": {
-      "type": "integer"
-    },
-    "effectivenessOfLeadership": {
-      "type": "integer"
     }
   }
 }
