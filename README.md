@@ -1,7 +1,7 @@
 # ofsted-blueprint
 [![Tymly Blueprint](https://img.shields.io/badge/tymly-blueprint-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/ofsted-blueprint.svg)](https://www.npmjs.com/package/@wmfs/ofsted-blueprint)
-[![Build Status](https://travis-ci.org/wmfs/ofsted-blueprint.svg?branch=master)](https://travis-ci.org/wmfs/ofsted-blueprint)
+[![CircleCI](https://circleci.com/gh/wmfs/ofsted-blueprint.svg?style=svg)](https://circleci.com/gh/wmfs/ofsted-blueprint)
 [![codecov](https://codecov.io/gh/wmfs/ofsted-blueprint/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/ofsted-blueprint)
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/ofsted-blueprint/badge)](https://www.codefactor.io/repository/github/wmfs/ofsted-blueprint)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
