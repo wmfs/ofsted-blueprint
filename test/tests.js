@@ -101,7 +101,7 @@ describe('Ofsted tests', function () {
 
   it('Should remove the data in the database', function (done) {
     client.query(
-      `drop table ofsted.ofsted cascade;`,
+      'drop table ofsted.ofsted cascade;',
       function (err, result) {
         if (err) {
           done(err)
