@@ -24,8 +24,8 @@ describe('Ofsted tests', function () {
     }
   })
 
-  it('should startup tymly', function (done) {
-    tymly.boot(
+  it('startup tymly', async () => {
+    const tymlyServices = await tymly.boot(
       {
         pluginPaths: [
           require.resolve('@wmfs/tymly-pg-plugin'),
@@ -35,85 +35,67 @@ describe('Ofsted tests', function () {
           path.resolve(__dirname, './../')
         ],
         config: {}
-      },
-      function (err, tymlyServices) {
-        expect(err).to.eql(null)
-        tymlyService = tymlyServices.tymly
-        statebox = tymlyServices.statebox
-        client = tymlyServices.storage.client
-        done()
       }
     )
+
+    tymlyService = tymlyServices.tymly
+    statebox = tymlyServices.statebox
+    client = tymlyServices.storage.client
   })
 
-  it('should execute importingCsvFiles', function (done) {
-    statebox.startExecution(
+  it('execute importingCsvFiles', async () => {
+    const executionDescription = await statebox.startExecution(
       {
         sourceDir: path.resolve(__dirname, './fixtures/input')
       },
       STATE_MACHINE_NAME,
       {
         sendResponse: 'COMPLETE'
-      },
-      function (err, executionDescription) {
-        expect(err).to.eql(null)
-        expect(executionDescription.status).to.eql('SUCCEEDED')
-        expect(executionDescription.currentStateName).to.equal('ImportingCsvFiles')
-        done()
       }
     )
+
+    expect(executionDescription.status).to.eql('SUCCEEDED')
+    expect(executionDescription.currentStateName).to.equal('ImportingCsvFiles')
   })
 
-  it('Should be the correct data in the database', function (done) {
-    client.query(
-      'select urn, uprn, establishment_name, ofsted_rating from ofsted.ofsted order by urn;',
-      function (err, result) {
-        if (err) {
-          done(err)
-        } else {
-          expect(result.rows).to.eql(
-            [
-              {
-                urn: '20043',
-                uprn: '100071486317',
-                establishment_name: 'Adderley Children\'s Centre',
-                ofsted_rating: 'Good'
-              },
-              {
-                urn: '20049',
-                uprn: '',
-                establishment_name: 'Merrishaw Albert Bradbeer Children\'s Centre',
-                ofsted_rating: 'Bad'
-              },
-              {
-                urn: '20064',
-                uprn: '10003595720',
-                establishment_name: 'The All Saints Children\'s Centre',
-                ofsted_rating: 'OK'
-              }
-            ]
-          )
-          done()
+  it('verify data in table', async () => {
+    const result = await client.query(
+      'select urn, uprn, establishment_name, ofsted_rating from ofsted.ofsted order by urn;'
+    )
+
+    expect(result.rows).to.eql(
+      [
+        {
+          urn: '20043',
+          uprn: '100071486317',
+          establishment_name: 'Adderley Children\'s Centre',
+          ofsted_rating: 'Good'
+        },
+        {
+          urn: '20049',
+          uprn: '',
+          establishment_name: 'Merrishaw Albert Bradbeer Children\'s Centre',
+          ofsted_rating: 'Bad'
+        },
+        {
+          urn: '20064',
+          uprn: '10003595720',
+          establishment_name: 'The All Saints Children\'s Centre',
+          ofsted_rating: 'OK'
         }
-      }
+      ]
     )
   })
 
-  it('Should remove the data in the database', function (done) {
-    client.query(
-      'drop table ofsted.ofsted cascade;',
-      function (err, result) {
-        if (err) {
-          done(err)
-        } else {
-          expect(result.rows).to.eql([])
-          done()
-        }
-      }
+  it('remove data from table', async () => {
+    const result = await client.query(
+      'drop table ofsted.ofsted cascade;'
     )
+
+    expect(result.rows).to.eql([])
   })
 
-  it('should shutdown Tymly', async () => {
+  after('shutdown Tymly', async () => {
     await tymlyService.shutdown()
   })
 })
