@@ -2,7 +2,7 @@
   "templateMeta": {
     "name": "ofsted-refresh-data-form",
     "title": "Refresh Ofsted Data via CSV File",
-    "category": "nfccCovid"
+    "category": "ofsted"
   },
   "type": "AdaptiveCard",
   "body": [
