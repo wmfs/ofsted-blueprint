@@ -102,8 +102,16 @@
     },
     {
       "showWhen": "data.uploadGood || data.uploadWarning",
-      "type": "Action.Submit",
-      "title": "Submit"
+      "type": "Action.ReplaceCard",
+      "stateMachineName": "ofsted_refreshDataSubmit_1_0",
+      "title": "Import",
+      "input": {
+        "rows":  "$.rows",
+        "serverFilename": "$.serverFilename",
+        "clientFilename": "$.clientFilename",
+        "totalRows": "$.totalRows",
+        "totalRejected": "$.totalRejected"
+      }
     }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
