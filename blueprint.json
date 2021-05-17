@@ -1,10 +1,9 @@
 {
   "namespace": "ofsted",
   "name": "ofsted-blueprint",
-  "version": "1.0",
+  "version": "1.1.0",
   "label": "ofsted-blueprint",
   "author": "Aron Moore",
-
   "organisation": "West Midlands Fire Service",
   "description": "Blueprint to use the Ofsted attribute for use in RIDGE models",
   "categories": []
