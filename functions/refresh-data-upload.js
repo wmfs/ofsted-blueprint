@@ -11,27 +11,27 @@ function readCsv (csvFile, importLog) {
         idx++
 
         const requiredProperties = [
-          ['URN', 'urn'],
-          ['UPRN', 'uprn'],
-          ['EstablishmentName', 'establishmentName'],
-          ['OfstedRating (name)', 'ofstedRating']
+          ['URN', 'urn'], // Column A: URN
+          ['UPRN', 'uprn'], // Column DZ: UPRN
+          ['EstablishmentName', 'establishmentName'], // Column E: EstablishmentName
+          ['OfstedRating (name)', 'ofstedRating'] // Column DW: OfstedRating (name)
         ]
 
         const missingProperties = []
 
-        if (!row['URN'])  missingProperties.push('URN')
-        if (!row['EstablishmentName'])  missingProperties.push('EstablishmentName')
-        if (!row['UPRN'])  missingProperties.push('UPRN')
-        if (!row['OfstedRating (name)'])  missingProperties.push('OfstedRating (name)')
+        for (const [prop] of requiredProperties) {
+          if (!row[prop])  missingProperties.push(prop)
+        }
 
         if (missingProperties.length === 0) {
           importLog.totalRows++
-          importLog.rows.push({
-            urn: row['URN'], // Column A: URN
-            uprn: row['UPRN'], // Column DZ: UPRN
-            establishmentName: row['EstablishmentName'], // Column E: EstablishmentName
-            ofstedRating: row['OfstedRating (name)'] // Column DW: OfstedRating (name)
-          })
+          const obj = {}
+
+          for (const [source, target] of requiredProperties) {
+            obj[target] = row[source]
+          }
+
+          importLog.rows.push(obj)
         } else {
           importLog.totalRejected++
           importLog.rejected.push({ idx, missingProperties })

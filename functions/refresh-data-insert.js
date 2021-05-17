@@ -7,7 +7,6 @@ module.exports = function () {
 
     const {
       ofsted_importLog: logModel
-      // ofsted_ofsted: dataModel
     } = models
 
     const {
@@ -27,15 +26,14 @@ module.exports = function () {
       totalRejected
     }
 
-    const script = ['TRUNCATE TABLE ofsted.ofsted;']
+    const statements = ['TRUNCATE TABLE ofsted.ofsted;']
 
     for (const { urn, uprn, establishmentName, ofstedRating } of rows) {
-      script.push(`INSERT INTO ofsted.ofsted (urn, uprn, establishment_name, ofsted_rating) VALUES (${urn}, '${uprn}', '${establishmentName}', '${ofstedRating}');`)
+      statements.push(`INSERT INTO ofsted.ofsted (urn, uprn, establishment_name, ofsted_rating) VALUES (${urn}, '${uprn.replace(/'/g, "''")}', '${establishmentName.replace(/'/g, "''")}', '${ofstedRating.replace(/'/g, "''")}');`)
     }
 
-    console.log(script)
-
-    // await logModel.create(importLog)
+    await client.run(statements.map(sql => { return { sql } }))
+    await logModel.create(importLog)
 
     return event
   }
