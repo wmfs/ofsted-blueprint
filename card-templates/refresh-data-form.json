@@ -1,0 +1,93 @@
+{
+  "templateMeta": {
+    "name": "ofsted-refresh-data-form",
+    "title": "Refresh Ofsted Data via CSV File",
+    "category": "nfccCovid"
+  },
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Jumbotron",
+      "title": "Refresh Ofsted Data via CSV File"
+    },
+    {
+      "type": "Container",
+      "spacing": "none",
+      "bordered": true,
+      "shadowed": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Upload CSV File",
+          "weight": "bolder",
+          "spacing": "small"
+        },
+        {
+          "id": "ofstedUpload",
+          "type": "Input.FileUpload",
+          "onUploadEndpoint": {
+            "name": "ofsted_refreshDataUpload_1_0"
+          },
+          "autoUpload": true,
+          "additionalFields": {
+            "upload": true
+          },
+          "accept": [
+            ".csv"
+          ]
+        },
+        {
+          "color": "good",
+          "type": "Container",
+          "showWhen": "data.uploadGood",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{data.uploadGood}}",
+              "weight": "bolder",
+              "spacing": "small"
+            }
+          ]
+        },
+        {
+          "color": "warning",
+          "type": "Container",
+          "showWhen": "data.uploadWarning",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{data.uploadWarning}}",
+              "weight": "bolder",
+              "spacing": "small"
+            }
+          ]
+        },
+        {
+          "color": "attention",
+          "type": "Container",
+          "showWhen": "data.uploadError",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{data.uploadError}}",
+              "weight": "bolder",
+              "spacing": "small"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Cancel",
+      "title": "Cancel"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

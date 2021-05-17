@@ -1,0 +1,32 @@
+{
+  "Comment": "Refresh Ofsted Data via CSV File",
+  "name": "Refresh Ofsted Data via CSV File",
+  "version": "1.0",
+  "categories": [
+    "dataManagement"
+  ],
+  "instigators": [
+    "user"
+  ],
+  "StartAt": "FillForm",
+  "States": {
+    "FillForm": {
+      "Type": "Task",
+      "Resource": "module:awaitingHumanInput",
+      "ResourceConfig": {
+        "uiType": "form",
+        "uiName": "ofsted_refreshDataForm",
+        "dataPath": "$"
+      },
+      "End": true
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "dm_dataManager",
+      "allows": [
+        "*"
+      ]
+    }
+  ]
+}
