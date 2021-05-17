@@ -77,17 +77,18 @@
         },
         {
           "showWhen": "data.uploadWarning",
-          "type": "MarkupTable",
+          "type": "Table",
           "arrayPath": "data.rejected",
           "title": "Rejected rows",
           "columns": [
             {
               "title": "#",
-              "value": "{{ item.idx }}"
+              "field": "idx"
             },
             {
               "title": "Missing values",
-              "value": "{{ item.missingProperties.join(', ') }}"
+              "field": "missingProperties",
+              "format": "item.missingProperties.join(', ')"
             }
           ]
         }
