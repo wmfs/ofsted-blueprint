@@ -8,8 +8,20 @@
   "instigators": [
     "user"
   ],
-  "StartAt": "FillForm",
+  "StartAt": "LoadImportHistory",
   "States": {
+    "LoadImportHistory": {
+      "Type": "Task",
+      "Resource": "module:finding",
+      "ResourceConfig": {
+        "modelId": "ofsted_importLog",
+        "filter": {
+          "orderBy": ["-modified"]
+        }
+      },
+      "ResultPath": "$.history",
+      "Next": "FillForm"
+    },
     "FillForm": {
       "Type": "Task",
       "Resource": "module:awaitingHumanInput",

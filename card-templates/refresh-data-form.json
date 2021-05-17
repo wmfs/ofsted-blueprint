@@ -93,6 +93,42 @@
           ]
         }
       ]
+    },
+    {
+      "type": "Container",
+      "spacing": "none",
+      "bordered": true,
+      "shadowed": true,
+      "showWhen": "data.history && data.history.length > 0",
+      "items": [
+        {
+          "type": "MarkupTable",
+          "title": "Previous imports",
+          "arrayPath": "data.history",
+          "columns": [
+            {
+              "title": "Filename",
+              "value": "{{ item.clientFilename }}"
+            },
+            {
+              "title": "Num. rows imported",
+              "value": "{{ item.totalRows }}"
+            },
+            {
+              "title": "Num. rows rejected",
+              "value": "{{ item.totalRejected }}"
+            },
+            {
+              "title": "Modified",
+              "value": "{{ formatDate(item.modified, 'Do MMM YYYY HH:mm') }}"
+            },
+            {
+              "title": "Modified by",
+              "value": "{{ item.modifiedBy || item.createdBy }}"
+            }
+          ]
+        }
+      ]
     }
   ],
   "actions": [
