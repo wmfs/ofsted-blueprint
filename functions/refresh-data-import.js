@@ -59,7 +59,6 @@ module.exports = function () {
 }
 
 async function progress (importLog, complete, event, env, context) {
-  console.log('progress', importLog)
   let parentExecutionName, parentResultPath
 
   if (event.launcher) {
