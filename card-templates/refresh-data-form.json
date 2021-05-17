@@ -101,7 +101,7 @@
       "title": "Cancel"
     },
     {
-      "showWhen": "data.uploadError",
+      "showWhen": "data.uploadGood || data.uploadWarning",
       "type": "Action.Submit",
       "title": "Submit"
     }
