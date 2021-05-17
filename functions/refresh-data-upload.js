@@ -20,7 +20,7 @@ function readCsv (csvFile, importLog) {
         const missingProperties = []
 
         for (const [prop] of requiredProperties) {
-          if (!row[prop])  missingProperties.push(prop)
+          if (!row[prop]) missingProperties.push(prop)
         }
 
         if (missingProperties.length === 0) {
@@ -53,7 +53,7 @@ function addUploadStatus (log) {
   log.uploadError = ''
 
   if (totalRows === 0) {
-    log.uploadError = `0 rows to be uploaded.`
+    log.uploadError = '0 rows to be uploaded.'
   } else if (totalRejected > 0) {
     log.uploadWarning = `${totalRows} rows to be uploaded but ${totalRejected} rows were rejected (see below).`
   } else {
