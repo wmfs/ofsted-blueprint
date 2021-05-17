@@ -3,7 +3,7 @@
   "name": "Refresh Ofsted Data via CSV File",
   "version": "1.0",
   "categories": [
-    "dataManagement"
+    "ofsted"
   ],
   "instigators": [
     "user"
