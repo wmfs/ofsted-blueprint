@@ -5,19 +5,11 @@
   "categories": [
     "ofsted"
   ],
-  "instigators": [
-    "user"
-  ],
-  "StartAt": "FillForm",
+  "StartAt": "Process",
   "States": {
-    "FillForm": {
+    "Process": {
       "Type": "Task",
-      "Resource": "module:awaitingHumanInput",
-      "ResourceConfig": {
-        "uiType": "form",
-        "uiName": "ofsted_refreshDataForm",
-        "dataPath": "$"
-      },
+      "Resource": "function:ofsted_refreshDataImport",
       "End": true
     }
   },

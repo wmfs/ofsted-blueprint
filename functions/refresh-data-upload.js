@@ -65,7 +65,6 @@ async function processFile ({ serverFilename, clientFilename }) {
   const importLog = {
     serverFilename,
     clientFilename,
-    startTime: new Date(),
     rows: [],
     rejected: [],
     totalRows: 0,

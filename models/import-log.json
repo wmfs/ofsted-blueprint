@@ -13,6 +13,16 @@
       "type": "string",
       "format": "date-time"
     },
+    "endTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "complete": {
+      "type": "boolean"
+    },
+    "totalRowsInserted": {
+      "type": "integer"
+    },
     "totalRows": {
       "type": "integer"
     },
