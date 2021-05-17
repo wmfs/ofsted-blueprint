@@ -74,6 +74,22 @@
               "spacing": "small"
             }
           ]
+        },
+        {
+          "showWhen": "data.uploadWarning",
+          "type": "MarkupTable",
+          "arrayPath": "data.rejected",
+          "title": "Rejected rows",
+          "columns": [
+            {
+              "title": "#",
+              "value": "{{ item.idx }}"
+            },
+            {
+              "title": "Missing values",
+              "value": "{{ item.missingProperties.join(', ') }}"
+            }
+          ]
         }
       ]
     }
@@ -84,6 +100,7 @@
       "title": "Cancel"
     },
     {
+      "showWhen": "data.uploadError",
       "type": "Action.Submit",
       "title": "Submit"
     }
