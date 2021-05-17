@@ -3,7 +3,7 @@ const fs = require('fs')
 
 function readCsv (csvFile, importLog) {
   return new Promise((resolve, reject) => {
-    let idx = 0
+    let idx = 1
 
     fs.createReadStream(csvFile)
       .pipe(csvparse({ columns: true }))
@@ -46,11 +46,11 @@ function addUploadStatus (log) {
   log.uploadError = ''
 
   if (totalRows === 0) {
-    log.uploadError = `0 rows to be uploaded`
+    log.uploadError = `0 rows to be uploaded.`
   } else if (totalRejected > 0) {
-    log.uploadWarning = `${totalRejected} rows will not be uploaded, but ${totalRows} will be uploaded.`
+    log.uploadWarning = `${totalRows} rows to be uploaded but ${totalRejected} rows were rejected (see below).`
   } else {
-    log.uploadGood = `${totalRows} rows to be uploaded`
+    log.uploadGood = `${totalRows} rows to be uploaded.`
   }
 }
 
