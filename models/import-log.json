@@ -1,0 +1,24 @@
+{
+  "title": "OFSTED Import Log",
+  "description": "OFSTED Import Log",
+  "type": "object",
+  "properties": {
+    "serverFilename": {
+      "type": "string"
+    },
+    "clientFilename": {
+      "type": "string"
+    },
+    "startTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "totalRows": {
+      "type": "integer"
+    },
+    "totalRejected": {
+      "type": "integer"
+    }
+  }
+}
+

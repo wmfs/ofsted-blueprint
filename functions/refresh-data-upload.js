@@ -10,6 +10,13 @@ function readCsv (csvFile, importLog) {
       .on('data', row => {
         idx++
 
+        const requiredProperties = [
+          ['URN', 'urn'],
+          ['UPRN', 'uprn'],
+          ['EstablishmentName', 'establishmentName'],
+          ['OfstedRating (name)', 'ofstedRating']
+        ]
+
         const missingProperties = []
 
         if (!row['URN'])  missingProperties.push('URN')
@@ -21,8 +28,8 @@ function readCsv (csvFile, importLog) {
           importLog.totalRows++
           importLog.rows.push({
             urn: row['URN'], // Column A: URN
-            uprn: row['EstablishmentName'], // Column E: EstablishmentName
-            establishmentName: row['UPRN'], // Column DZ: UPRN
+            uprn: row['UPRN'], // Column DZ: UPRN
+            establishmentName: row['EstablishmentName'], // Column E: EstablishmentName
             ofstedRating: row['OfstedRating (name)'] // Column DW: OfstedRating (name)
           })
         } else {

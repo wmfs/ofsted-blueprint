@@ -18,6 +18,11 @@
         "uiName": "ofsted_refreshDataForm",
         "dataPath": "$"
       },
+      "Next": "Insert"
+    },
+    "Insert": {
+      "Type": "Task",
+      "Resource": "function:ofsted_refreshDataInsert",
       "End": true
     }
   },
