@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.1.0...v1.2.0) (2021-05-20)
+
+
+### ✨ Features
+
+* show guidance for upload file ([459780e](https://github.com/wmfs/ofsted-blueprint/commit/459780e7307438d2fbb31a0c291318131858e1ae))
+
 # [1.1.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.0.14...v1.1.0) (2021-05-17)
 
 
