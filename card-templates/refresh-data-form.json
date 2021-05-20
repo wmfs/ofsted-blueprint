@@ -7,8 +7,14 @@
   "type": "AdaptiveCard",
   "body": [
     {
-      "type": "Jumbotron",
-      "title": "Refresh Ofsted Data via CSV File"
+      "type": "Container",
+      "color": "accent",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Please upload the 'Establishment fields CSV' file from here: <a href='https://get-information-schools.service.gov.uk/Downloads' target='_blank' color='white'>https://get-information-schools.service.gov.uk/Downloads</a>"
+        }
+      ]
     },
     {
       "type": "Container",
