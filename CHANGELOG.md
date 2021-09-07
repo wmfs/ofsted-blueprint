@@ -1,3 +1,38 @@
+# [1.3.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.2.0...v1.3.0) (2021-09-07)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency csv-parse to v4.16.0 ([29402f2](https://github.com/wmfs/ofsted-blueprint/commit/29402f2a4cd711e27fa93c3509a3916ab89061d2))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.205.0 to 1.206.0 ([df38b6f](https://github.com/wmfs/ofsted-blueprint/commit/df38b6fd72e3845b447daa4c9d7ffaa8dc3e76d4))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.206.0 to 1.207.0 ([fd16d09](https://github.com/wmfs/ofsted-blueprint/commit/fd16d094f1f59a5f44b93625955ac4efec2cb56a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.207.0 to 1.208.0 ([cf24132](https://github.com/wmfs/ofsted-blueprint/commit/cf24132f699f598e3bc8e358c82c2da3199d5b9f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.208.0 to 1.209.0 ([60ec121](https://github.com/wmfs/ofsted-blueprint/commit/60ec1218354647fce86a5f1f0e41ae46bad62ba9))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.209.0 to 1.210.0 ([8979fab](https://github.com/wmfs/ofsted-blueprint/commit/8979fab065b32b58a85cd85d8be32c1f7b3fca0e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.210.0 to 1.211.0 ([a396529](https://github.com/wmfs/ofsted-blueprint/commit/a396529f54ec5c4b681482ab19c7b5703efc5c36))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.211.0 to 1.212.0 ([db66d14](https://github.com/wmfs/ofsted-blueprint/commit/db66d14b53e828f2084730b320728d1bf8b4ceee))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([28f4040](https://github.com/wmfs/ofsted-blueprint/commit/28f404030b816b18264b342f2489427eff038716))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.247.0 to 1.248.0 ([a4bb0b2](https://github.com/wmfs/ofsted-blueprint/commit/a4bb0b2c5031b6a192a6964a189319016ca63796))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.248.0 to 1.249.0 ([3c66bff](https://github.com/wmfs/ofsted-blueprint/commit/3c66bff93352d0037b05bf7e9408bd1f3e0f6c01))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.249.0 to 1.250.0 ([8e1039e](https://github.com/wmfs/ofsted-blueprint/commit/8e1039e2be2c6be43aab304161caaf75fdc6cb0e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.250.0 to 1.252.0 ([107ccf9](https://github.com/wmfs/ofsted-blueprint/commit/107ccf9fff160f943dd5963b3941ced3d5e1a1e9))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.252.0 to 1.253.0 ([3f8603c](https://github.com/wmfs/ofsted-blueprint/commit/3f8603c6cd696a21ae4fec9c7fc845fc58024d31))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-test-helpers from 1.7.0 to 1.8.0 ([87f4bcf](https://github.com/wmfs/ofsted-blueprint/commit/87f4bcff6242d87c4d879feadc1004064daab433))
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([97da2f8](https://github.com/wmfs/ofsted-blueprint/commit/97da2f80bb548a305e3ca1fd5a1d5fb656a7fe03))
+* **deps-dev:** bump debug from 4.3.1 to 4.3.2 ([2ee317d](https://github.com/wmfs/ofsted-blueprint/commit/2ee317dc016162fa75eddfabd02601774594ca18))
+* **deps-dev:** bump mocha from 8.4.0 to 9.0.0 ([769c637](https://github.com/wmfs/ofsted-blueprint/commit/769c637fa551c47ae4f2601147e62836cbe5d11a))
+* **deps-dev:** bump mocha from 9.0.0 to 9.0.1 ([cc5760a](https://github.com/wmfs/ofsted-blueprint/commit/cc5760a12dded8edfccdc074e8ec9578c9852bf2))
+* **deps-dev:** bump mocha from 9.0.1 to 9.0.2 ([b599694](https://github.com/wmfs/ofsted-blueprint/commit/b599694d3680ea9bff624791a791a4119e770bb0))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([a6802b6](https://github.com/wmfs/ofsted-blueprint/commit/a6802b6effd090df5594ca9f09a379f17d50bf39))
+* **deps-dev:** bump semantic-release from 17.4.3 to 17.4.4 ([e265ebf](https://github.com/wmfs/ofsted-blueprint/commit/e265ebfd16d0cab564cb7e11e242aba6261cfb81))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.255.0 ([d445390](https://github.com/wmfs/ofsted-blueprint/commit/d445390e83e87dc174343091703490f1849da563))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.256.0 ([2831807](https://github.com/wmfs/ofsted-blueprint/commit/283180716901c95400e2a9b8a289fbb3e80db926))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([bae3142](https://github.com/wmfs/ofsted-blueprint/commit/bae3142a2fe8da016c109a36b77d90905fa2f6e3))
+
 # [1.2.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.1.0...v1.2.0) (2021-05-20)
 
 
