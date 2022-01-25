@@ -1,3 +1,56 @@
+# [1.4.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.3.0...v1.4.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([61ad1dd](https://github.com/wmfs/ofsted-blueprint/commit/61ad1dd0f414765ecb50899cbc6d762c561c3712))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/exec to v6 ([5ade551](https://github.com/wmfs/ofsted-blueprint/commit/5ade551258840865b1b0923a43e5e901e4ca2dec))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/exec to v6.0.3 ([9b65912](https://github.com/wmfs/ofsted-blueprint/commit/9b65912bb272cf79d4e44d09138fe186a1b4da87))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([3e7259d](https://github.com/wmfs/ofsted-blueprint/commit/3e7259df56576aea58a871930524615e7e7d940c))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.212.3 ([737ee8f](https://github.com/wmfs/ofsted-blueprint/commit/737ee8fca7315269f8716e2271fd76cfcf3ebf27))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.212.4 ([b68bc33](https://github.com/wmfs/ofsted-blueprint/commit/b68bc3383bd194cbef53844eb5cdc313e48c2370))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.213.0 ([b3c759b](https://github.com/wmfs/ofsted-blueprint/commit/b3c759bfd3573df62e531f3519bf540280b35238))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.216.0 ([7659594](https://github.com/wmfs/ofsted-blueprint/commit/7659594e7afe5d32d90219d35a9dcc2c96bc4c36))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.217.0 ([897e65d](https://github.com/wmfs/ofsted-blueprint/commit/897e65d306298cb8a2ffe057016bc2d3f5f9a74c))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.0 ([7fa1305](https://github.com/wmfs/ofsted-blueprint/commit/7fa1305155c4e3cb1f982c56d500c340f4f9c18a))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.1 ([bb4b104](https://github.com/wmfs/ofsted-blueprint/commit/bb4b10406830a3b3951eb4ebc5134e0e39350446))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.220.0 ([0319d89](https://github.com/wmfs/ofsted-blueprint/commit/0319d89cf79b79f7971c6ca42a9be10ceb1293ce))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.221.0 ([93356de](https://github.com/wmfs/ofsted-blueprint/commit/93356de4b7b621f201c6f4ddeae523e065a7f687))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.222.0 ([aa065c4](https://github.com/wmfs/ofsted-blueprint/commit/aa065c40a597d1234e994e3e3757016133a461db))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.224.2 ([e9df550](https://github.com/wmfs/ofsted-blueprint/commit/e9df5507e1eb696a6a58da6c7eb3bc4b9f6d7cae))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.32.0 ([e0eab6d](https://github.com/wmfs/ofsted-blueprint/commit/e0eab6df982c6fc495b30e1ad4bf667637e33773))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.34.0 ([5172b6c](https://github.com/wmfs/ofsted-blueprint/commit/5172b6c00e0dd91400d36f165b62ea95b023c16e))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.35.1 ([c8c9b9b](https://github.com/wmfs/ofsted-blueprint/commit/c8c9b9bc78458e820ca595c8a5325137ae828cc3))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.0 ([b84c05d](https://github.com/wmfs/ofsted-blueprint/commit/b84c05d091a5d2376481af84b40421b57a7b4a3c))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.1 ([a89dcb9](https://github.com/wmfs/ofsted-blueprint/commit/a89dcb9bb0111979614066ed6fdabf5d8a904c96))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.2 ([4d7094a](https://github.com/wmfs/ofsted-blueprint/commit/4d7094a12076b9a167fefa0bb83da8fa77b31086))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.37.0 ([682b397](https://github.com/wmfs/ofsted-blueprint/commit/682b39747c85b0a726fa29f9f016b1553bb88ded))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.257.0 ([1aa67a4](https://github.com/wmfs/ofsted-blueprint/commit/1aa67a448df821cf2c00a930c28c27165695c83a))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-pg-plugin to v1.258.0 ([c793867](https://github.com/wmfs/ofsted-blueprint/commit/c79386773de9eb625b394f66b5128664ef72ab22))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.10.0 ([70f1d25](https://github.com/wmfs/ofsted-blueprint/commit/70f1d258d8c98ebb27a79c84830b185968d3bbf3))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.11.0 ([b222d84](https://github.com/wmfs/ofsted-blueprint/commit/b222d84d4a58a798a84cc117598a0453b71f3775))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.13.0 ([0fbe7cd](https://github.com/wmfs/ofsted-blueprint/commit/0fbe7cd651e967a0bd931be37d425edd5ad43707))
+* **deps-dev:** update dependency debug to v4.3.3 ([e7ea1bf](https://github.com/wmfs/ofsted-blueprint/commit/e7ea1bff993b33eab420690caadd24f29e761a84))
+* **deps-dev:** update dependency mocha to v9.1.1 ([8f21208](https://github.com/wmfs/ofsted-blueprint/commit/8f212083e7eb8e2530fef821cddf7b3b1c43426a))
+* **deps-dev:** update dependency mocha to v9.1.2 ([32d2eec](https://github.com/wmfs/ofsted-blueprint/commit/32d2eec983f1bfe9c3d31a5b5e130df0031ea35a))
+* **deps-dev:** update dependency mocha to v9.1.3 ([4cacdab](https://github.com/wmfs/ofsted-blueprint/commit/4cacdab72e395ebfc1550f40c4090af075aa1c3a))
+* **deps-dev:** update dependency mocha to v9.1.4 ([fbeb113](https://github.com/wmfs/ofsted-blueprint/commit/fbeb1130ed0cbb19f4a2771acf266a9d649bcb97))
+* **deps-dev:** update dependency mocha to v9.2.0 ([9447f43](https://github.com/wmfs/ofsted-blueprint/commit/9447f4390b3eb5799360d57f424352f814e4a98f))
+* **deps-dev:** update dependency semantic-release to v18 ([38dfa89](https://github.com/wmfs/ofsted-blueprint/commit/38dfa89ea6c8a99d75620d2c7c37b1bf7a088644))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([b2044e9](https://github.com/wmfs/ofsted-blueprint/commit/b2044e951428b4a24c3e3b9109e1052665929318))
+* **deps-dev:** update dependency semantic-release to v19 ([7def61e](https://github.com/wmfs/ofsted-blueprint/commit/7def61ed779dd1b1003c6965f079b8d612dce6d3))
+* **deps-dev:** update dependency standard to v16.0.4 ([07935d7](https://github.com/wmfs/ofsted-blueprint/commit/07935d7b5cab25d33d0b0a86a708bfdf5eb019ba))
+* **deps-dev:** update semantic-release monorepo ([4e0b874](https://github.com/wmfs/ofsted-blueprint/commit/4e0b874a76fa226134f3bc2630024382a962591f))
+* **deps-dev:** update semantic-release monorepo ([2445deb](https://github.com/wmfs/ofsted-blueprint/commit/2445debb08252d6837a7b47adef421b311fcf960))
+* **deps:** update dependency csv-parse to v4.16.3 ([e5d4029](https://github.com/wmfs/ofsted-blueprint/commit/e5d40297638e251850c49556e976fbdef4a470af))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add build-env-vars context [sc-11392] ([3564ea3](https://github.com/wmfs/ofsted-blueprint/commit/3564ea32b13ddb071af5e4f629f03ee8bb7264e3))
+* **circle:** CircleCI update next gen PostgreSQL image [sc-11442] ([811f9dc](https://github.com/wmfs/ofsted-blueprint/commit/811f9dc600ac85c99a7e3a079a1a06853a9f93b4))
+* **circle:** update npm install command [sc-11392] ([913103d](https://github.com/wmfs/ofsted-blueprint/commit/913103df84f5691c6bc017004a487e6cb8bcbf64))
+
 # [1.3.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.2.0...v1.3.0) (2021-09-07)
 
 
