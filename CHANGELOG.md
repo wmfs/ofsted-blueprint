@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.4.0...v1.5.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency csv-parse to v5 ([cafd79e](https://github.com/wmfs/ofsted-blueprint/commit/cafd79e0ce96c6ae261742d44882d09c973adf48))
+
 # [1.4.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.3.0...v1.4.0) (2022-01-25)
 
 
