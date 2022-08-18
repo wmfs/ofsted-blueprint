@@ -40,7 +40,8 @@ jobs:
       - run:
           name: test
           command: npm run test
-      - codecov/upload
+      - codecov/upload:
+          file: './nyc_output/*.json'
   lint:
     docker:
       - image: cimg/node:lts
