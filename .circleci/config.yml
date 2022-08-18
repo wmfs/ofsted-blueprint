@@ -39,11 +39,8 @@ jobs:
             - node_modules
       - run:
           name: test
-          command: |
-            npm run test
-            npm run coverage
-      - codecov/upload:
-          file: 'coverage.lcov'
+          command: npm run test
+      - codecov/upload
   lint:
     docker:
       - image: cimg/node:lts
