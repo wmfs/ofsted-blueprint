@@ -1,4 +1,6 @@
-version: 2
+version: 2.1
+orbs:
+  codecov: codecov/codecov@3.2.3
 jobs:
   unit test:
     docker:
@@ -38,9 +40,7 @@ jobs:
       - run:
           name: test
           command: npm test
-      - run:
-          name: codecov
-          command: npm run coverage
+      - codecov/upload
   lint:
     docker:
       - image: cimg/node:lts
@@ -88,7 +88,6 @@ jobs:
             chmod +x version_blueprint
             npx semantic-release
 workflows:
-  version: 2
   test_and_release:
     jobs:
     - unit test:
