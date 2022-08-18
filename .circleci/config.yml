@@ -39,9 +39,11 @@ jobs:
             - node_modules
       - run:
           name: test
-          command: npm test
+          command: |
+            npm test
+            npm coverage
       - codecov/upload:
-          file: './nyc_output/*.json'
+          file: 'coverage.lcov'
   lint:
     docker:
       - image: cimg/node:lts
