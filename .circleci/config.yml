@@ -40,8 +40,8 @@ jobs:
       - run:
           name: test
           command: |
-            npm test
-            npm coverage
+            npm run test
+            npm run coverage
       - codecov/upload:
           file: 'coverage.lcov'
   lint:
