@@ -1,3 +1,34 @@
+## [1.5.1](https://github.com/wmfs/ofsted-blueprint/compare/v1.5.0...v1.5.1) (2022-09-27)
+
+
+### 🐛 Bug Fixes
+
+* update url to white ([1402da1](https://github.com/wmfs/ofsted-blueprint/commit/1402da1ec22d5812b4483c3b853f4673778d8b0b))
+* update url to white ([1fefb8c](https://github.com/wmfs/ofsted-blueprint/commit/1fefb8cdcb2a87315c4b040122ab3460a1f459b3))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.14.0 ([d20fa9f](https://github.com/wmfs/ofsted-blueprint/commit/d20fa9ff0f12a00c2ff705925213605822d4a81d))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.15.0 ([018aef8](https://github.com/wmfs/ofsted-blueprint/commit/018aef83c5ead5aed0321570495b6e88ce05331b))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.16.0 ([5c28ddb](https://github.com/wmfs/ofsted-blueprint/commit/5c28ddb73b3835fc2ad8eb239a18b5e0015389fa))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.17.0 ([6549069](https://github.com/wmfs/ofsted-blueprint/commit/6549069ab2c663d74244bcdc2d55cbc53f95ad31))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.17.1 ([17730dc](https://github.com/wmfs/ofsted-blueprint/commit/17730dcbe000e5091f3d8ad79a358ef938c49c2e))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.18.0 ([957f746](https://github.com/wmfs/ofsted-blueprint/commit/957f746c516714d11d25bdc78a510765891539f8))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.19.0 ([ce9d5f5](https://github.com/wmfs/ofsted-blueprint/commit/ce9d5f593eda336ab300cd31e0736824a10d1762))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.21.0 ([5e0fe5f](https://github.com/wmfs/ofsted-blueprint/commit/5e0fe5fed10d552917029fd798d393a2950c4e79))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.22.0 ([f2f8262](https://github.com/wmfs/ofsted-blueprint/commit/f2f82625ae63bec79897cb78954a06da8ce1e305))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.22.1 ([f69eaae](https://github.com/wmfs/ofsted-blueprint/commit/f69eaae79df88f145c8b4ea7a2b7b7f11a63557e))
+* **deps-dev:** update dependency chai to v4.3.5 ([e82112f](https://github.com/wmfs/ofsted-blueprint/commit/e82112fd115ab07e87e8ae2ec94df6fe32972723))
+* **deps-dev:** update dependency chai to v4.3.6 ([19ea7ac](https://github.com/wmfs/ofsted-blueprint/commit/19ea7ac3c43ec14e21e15d0e8bf99b503b6132b2))
+* **deps-dev:** update dependency debug to v4.3.4 ([fbf7a20](https://github.com/wmfs/ofsted-blueprint/commit/fbf7a20a941c9f84601493d61bc01fb4b45a11c6))
+* **deps-dev:** update dependency mocha to v10 ([f2a54e9](https://github.com/wmfs/ofsted-blueprint/commit/f2a54e91896e1dd7058797fe4688c89625e884cd))
+* **deps-dev:** update dependency mocha to v9.2.1 ([6254e22](https://github.com/wmfs/ofsted-blueprint/commit/6254e2291bc0d615222d1ed37b6549a304457bf8))
+* **deps-dev:** update dependency mocha to v9.2.2 ([a47c62b](https://github.com/wmfs/ofsted-blueprint/commit/a47c62bdd2b9bc182a093af22097ca552ab86dd1))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([45d54c3](https://github.com/wmfs/ofsted-blueprint/commit/45d54c35c0e9406246c077aadbb9a2d6fe952c01))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([13aabb5](https://github.com/wmfs/ofsted-blueprint/commit/13aabb5d1742b694605f0236657b820ec36dd109))
+* **deps-dev:** update dependency standard to v17 ([de1ea06](https://github.com/wmfs/ofsted-blueprint/commit/de1ea06d1bd4f624a99728181c6b86b2d5bd4e97))
+
 # [1.5.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.4.0...v1.5.0) (2022-01-25)
 
 
