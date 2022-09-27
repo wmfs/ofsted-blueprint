@@ -12,7 +12,7 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "Please upload the 'Establishment fields CSV' file from here: <a href='https://get-information-schools.service.gov.uk/Downloads' target='_blank' style="color: white;">https://get-information-schools.service.gov.uk/Downloads</a>"
+          "text": "Please upload the 'Establishment fields CSV' file from here: <a href='https://get-information-schools.service.gov.uk/Downloads' target='_blank' style=\"color: white;\">https://get-information-schools.service.gov.uk/Downloads</a>"
         }
       ]
     },
