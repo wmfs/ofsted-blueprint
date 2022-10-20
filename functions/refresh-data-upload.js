@@ -1,4 +1,4 @@
-const csvparse = require('csv-parse')
+const { parse } = require('csv-parse')
 const fs = require('fs')
 
 function readCsv (csvFile, importLog) {
@@ -6,7 +6,7 @@ function readCsv (csvFile, importLog) {
     let idx = 1
 
     fs.createReadStream(csvFile)
-      .pipe(csvparse({ columns: true }))
+      .pipe(parse({ columns: true }))
       .on('data', row => {
         idx++
 
