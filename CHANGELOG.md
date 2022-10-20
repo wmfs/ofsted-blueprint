@@ -1,3 +1,15 @@
+## [1.5.2](https://github.com/wmfs/ofsted-blueprint/compare/v1.5.1...v1.5.2) (2022-10-20)
+
+
+### 🐛 Bug Fixes
+
+* usage of csv-parse package ([9541f64](https://github.com/wmfs/ofsted-blueprint/commit/9541f64fcc8ca8b037deb4b5fe54f690892f592c))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency mocha to v10.1.0 ([4607a35](https://github.com/wmfs/ofsted-blueprint/commit/4607a35e911814839c1fc824b995eec70e49d8ae))
+
 ## [1.5.1](https://github.com/wmfs/ofsted-blueprint/compare/v1.5.0...v1.5.1) (2022-09-27)
 
 
