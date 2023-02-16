@@ -1,3 +1,26 @@
+# [1.7.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.6.0...v1.7.0) (2023-02-16)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([00f7e1d](https://github.com/wmfs/ofsted-blueprint/commit/00f7e1d7f642251fe936582c2dc1d25b4ebc367f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.22.2 ([381bad6](https://github.com/wmfs/ofsted-blueprint/commit/381bad6a8443de5b8cc8aed1240cf97c951e7e48))
+* **deps-dev:** update dependency chai to v4.3.7 ([87f2e7f](https://github.com/wmfs/ofsted-blueprint/commit/87f2e7fd147ee77c1e79e6cf9dd4f39afff97149))
+* **deps-dev:** update dependency mocha to v10.2.0 ([dda12bf](https://github.com/wmfs/ofsted-blueprint/commit/dda12bfb0fcba9c83dc00a2a1cd4e5461e7c7c1f))
+* **deps-dev:** update dependency semantic-release to v20 ([ed14bca](https://github.com/wmfs/ofsted-blueprint/commit/ed14bca072aebc0f865ae12a3a39c9af21a1e9e9))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([7757d23](https://github.com/wmfs/ofsted-blueprint/commit/7757d23cc8f0ee7349d2ca24c4bcb40c25169005))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([6d2db63](https://github.com/wmfs/ofsted-blueprint/commit/6d2db631c3d7992a1df222ebb722c11b53426eb5))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([1205f12](https://github.com/wmfs/ofsted-blueprint/commit/1205f12314a2942595e09d42db7740d85748697d))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([818f7bc](https://github.com/wmfs/ofsted-blueprint/commit/818f7bcec805d505892c77e70928afd6ef2855af))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([1bcdbd8](https://github.com/wmfs/ofsted-blueprint/commit/1bcdbd849ddf518797e61fab43e066867e09bd8a))
+* **deps:** update dependency csv-parse to v5.3.5 ([09f4542](https://github.com/wmfs/ofsted-blueprint/commit/09f45423fca34c144bd6478b12d91eccf5fd217b))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** CircleCI update PostgreSQL image to 15 0 [sc-18659] ([695ca22](https://github.com/wmfs/ofsted-blueprint/commit/695ca22d4629c3d4a1770249cdf84de1c278fea4))
+* **circle:** update postgres to 15.1-postgis ([5728d4f](https://github.com/wmfs/ofsted-blueprint/commit/5728d4f4ce6b3315e8e006c4945b811c9aa0e39a))
+
 # [1.6.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.5.2...v1.6.0) (2022-10-27)
 
 
