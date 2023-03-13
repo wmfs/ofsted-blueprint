@@ -1,3 +1,11 @@
+# [1.8.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.7.0...v1.8.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([4c9941a](https://github.com/wmfs/ofsted-blueprint/commit/4c9941aadd0e0011f553c5caf6590f451741eccb))
+* **deps:** update dependency csv-parse to v5.3.6 ([b049b73](https://github.com/wmfs/ofsted-blueprint/commit/b049b73282c0181029626f7de77cb2b3cb2d7238))
+
 # [1.7.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.6.0...v1.7.0) (2023-02-16)
 
 
