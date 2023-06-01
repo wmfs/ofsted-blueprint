@@ -1,3 +1,25 @@
+# [1.9.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.8.0...v1.9.0) (2023-06-01)
+
+
+### ✨ Features
+
+* updated schema for cardscript files ([50ee315](https://github.com/wmfs/ofsted-blueprint/commit/50ee315a0e5f78cd261e0fd35557e83ed00963c8))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([a6918fe](https://github.com/wmfs/ofsted-blueprint/commit/a6918fec897c0b9fe469068d068f0eae4cb465de))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([a8ed4c0](https://github.com/wmfs/ofsted-blueprint/commit/a8ed4c00fbdc8ba554c5163c39bcd0c82759f7b1))
+* **deps-dev:** update dependency semantic-release to v21 ([7779c33](https://github.com/wmfs/ofsted-blueprint/commit/7779c33e3ca5ae44c71debf91b1fb51a7c310e2a))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([99ce9cc](https://github.com/wmfs/ofsted-blueprint/commit/99ce9ccfaa66edd0bba2d706946ee145a1a1697c))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([79fd2f3](https://github.com/wmfs/ofsted-blueprint/commit/79fd2f3d32cdb2fc330ca9a0870f603c66c561c1))
+* **deps-dev:** update dependency standard to v17.1.0 ([5d57c1a](https://github.com/wmfs/ofsted-blueprint/commit/5d57c1af2e8f8584f91a312590c75010420849ed))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** update postgres to 15.2-postgis [sc-19693] ([123c0e1](https://github.com/wmfs/ofsted-blueprint/commit/123c0e1ef726e601463f4037fdeb115a38038a99))
+
 # [1.8.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.7.0...v1.8.0) (2023-03-13)
 
 
