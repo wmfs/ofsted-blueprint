@@ -1,3 +1,20 @@
+# [1.10.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.9.0...v1.10.0) (2023-09-19)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency chai to v4.3.8 ([95d45ed](https://github.com/wmfs/ofsted-blueprint/commit/95d45ed58a944321625247f440dc916a40d5bd10))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([843f079](https://github.com/wmfs/ofsted-blueprint/commit/843f0793b6c8f58557d95f0268d716841265075c))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([3530645](https://github.com/wmfs/ofsted-blueprint/commit/35306458a442506c49ba697603ef9554b24ab284))
+* **deps-dev:** update dependency semantic-release to v21.0.6 ([ad13bb6](https://github.com/wmfs/ofsted-blueprint/commit/ad13bb69790d538c6c04d318e61772364ca98082))
+* **deps-dev:** update dependency semantic-release to v21.0.7 ([d167a2a](https://github.com/wmfs/ofsted-blueprint/commit/d167a2a0f5bd904417c678d8e19001f92e1114f0))
+* **deps-dev:** update dependency semantic-release to v21.0.9 ([850c95a](https://github.com/wmfs/ofsted-blueprint/commit/850c95a56cbc133037874f6aff268b8c6df4f229))
+* **deps-dev:** update dependency semantic-release to v21.1.0 ([0a7c508](https://github.com/wmfs/ofsted-blueprint/commit/0a7c5088add1a81905ee61fe14cc91c6cc8e177f))
+* **deps-dev:** update dependency semantic-release to v21.1.1 ([19438a6](https://github.com/wmfs/ofsted-blueprint/commit/19438a69f49a205f48fe6d85b2783d8cf6ac3121))
+* **deps-dev:** update dependency semantic-release to v21.1.2 ([e007734](https://github.com/wmfs/ofsted-blueprint/commit/e00773413616884495919889a9b1f504c2d42e65))
+* **deps-dev:** update dependency semantic-release to v22 ([42ff60e](https://github.com/wmfs/ofsted-blueprint/commit/42ff60e96aea26ed556adcfd0dfbfc3e0c4415f8))
+* **deps:** revert semantic-release ([24a0ded](https://github.com/wmfs/ofsted-blueprint/commit/24a0dedfcf9a4e9e044f5cfd26ae98ef32b1e12b))
+
 # [1.9.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.8.0...v1.9.0) (2023-06-01)
 
 
