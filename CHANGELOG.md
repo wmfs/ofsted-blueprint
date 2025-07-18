@@ -1,3 +1,13 @@
+## [1.14.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.13.0...v1.14.0) (2025-07-18)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.314.0 ([#904](https://github.com/wmfs/ofsted-blueprint/issues/904)) ([ab8964b](https://github.com/wmfs/ofsted-blueprint/commit/ab8964bf5e75740ac6aa5326fc31003a15706032))
+* **deps-dev:** update dependency @wmfs/tymly-pg-plugin to v1.341.0 ([#905](https://github.com/wmfs/ofsted-blueprint/issues/905)) ([ec62d2d](https://github.com/wmfs/ofsted-blueprint/commit/ec62d2d1aea5487bb99c7f2b15ab3bad4243cbb9))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#902](https://github.com/wmfs/ofsted-blueprint/issues/902)) ([c8bd5e6](https://github.com/wmfs/ofsted-blueprint/commit/c8bd5e69c0c84f5d7bacb7f179a3b1260959daf6))
+* **deps-dev:** update dependency semantic-release to v24.2.7 ([#906](https://github.com/wmfs/ofsted-blueprint/issues/906)) ([f2d1030](https://github.com/wmfs/ofsted-blueprint/commit/f2d1030ed65a42354f9b6e350f98070ab6a77b57))
+* **deps:** update dependency csv-parse to v6.1.0 ([#908](https://github.com/wmfs/ofsted-blueprint/issues/908)) ([f82596c](https://github.com/wmfs/ofsted-blueprint/commit/f82596cb17074c83f5d5073d9fc37c6b1e1521ca))
+
 ## [1.13.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.12.0...v1.13.0) (2025-07-11)
 
 ### Build system dependencies :hammer:
