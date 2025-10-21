@@ -1,3 +1,21 @@
+## [1.15.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.14.0...v1.15.0) (2025-10-21)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/release-notes-generator to v14.1.0 ([#911](https://github.com/wmfs/ofsted-blueprint/issues/911)) ([7ac7601](https://github.com/wmfs/ofsted-blueprint/commit/7ac76011b54265ababbaa69b925fa2dc4120c183))
+* **deps-dev:** update dependency @wmfs/tymly to v1.315.0 ([#907](https://github.com/wmfs/ofsted-blueprint/issues/907)) ([0c54d15](https://github.com/wmfs/ofsted-blueprint/commit/0c54d15e31c3f160984079dd909ad9928ad3aed5))
+* **deps-dev:** update dependency chai to v6 ([#909](https://github.com/wmfs/ofsted-blueprint/issues/909)) ([9b685a5](https://github.com/wmfs/ofsted-blueprint/commit/9b685a585f9e1ade4db79285062c1bef5c55f5c0))
+* **deps-dev:** update dependency chai to v6.2.0 ([#915](https://github.com/wmfs/ofsted-blueprint/issues/915)) ([70ecf32](https://github.com/wmfs/ofsted-blueprint/commit/70ecf3212d5ed92e4d9f944cfccadc25f1dd4c51))
+* **deps-dev:** update dependency debug to v4.4.3 ([#913](https://github.com/wmfs/ofsted-blueprint/issues/913)) ([8a0fa2d](https://github.com/wmfs/ofsted-blueprint/commit/8a0fa2d29f1d63ab39a23a3f6212bb88cdff6289))
+* **deps-dev:** update dependency mocha to v11.7.2 ([#910](https://github.com/wmfs/ofsted-blueprint/issues/910)) ([ace7999](https://github.com/wmfs/ofsted-blueprint/commit/ace799970f647d37ea08d920b5e6814930d4cbda))
+* **deps-dev:** update dependency mocha to v11.7.3 ([#916](https://github.com/wmfs/ofsted-blueprint/issues/916)) ([7ea5285](https://github.com/wmfs/ofsted-blueprint/commit/7ea5285700c1ee162e38e25310217bc5c4635bc4))
+* **deps-dev:** update dependency mocha to v11.7.4 ([#917](https://github.com/wmfs/ofsted-blueprint/issues/917)) ([61260c8](https://github.com/wmfs/ofsted-blueprint/commit/61260c81d7df0ea028dcd3d67dce357dd1740900))
+* **deps-dev:** update dependency semantic-release to v24.2.8 ([#912](https://github.com/wmfs/ofsted-blueprint/issues/912)) ([c62732f](https://github.com/wmfs/ofsted-blueprint/commit/c62732f733d46e99d2686e0cf734485e4d322f07))
+* **deps-dev:** update dependency semantic-release to v24.2.9 ([#914](https://github.com/wmfs/ofsted-blueprint/issues/914)) ([2a2c09e](https://github.com/wmfs/ofsted-blueprint/commit/2a2c09ef90df2f4fda4aa5a02e94b5970912500d))
+* **deps-dev:** update dependency semantic-release to v25 ([#918](https://github.com/wmfs/ofsted-blueprint/issues/918)) ([9d40390](https://github.com/wmfs/ofsted-blueprint/commit/9d4039019975d9522286e3f51998a553fd81fb48))
+* **deps-dev:** update dependency semantic-release to v25.0.1 ([#919](https://github.com/wmfs/ofsted-blueprint/issues/919)) ([3ca3959](https://github.com/wmfs/ofsted-blueprint/commit/3ca395982a185bf9eade2729009bf475aecdc57a))
+* **deps:** revert chai to non-esm ([f1bf906](https://github.com/wmfs/ofsted-blueprint/commit/f1bf906642690ed6648f73e4232401de73e48a76))
+
 ## [1.14.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.13.0...v1.14.0) (2025-07-18)
 
 ### Build system dependencies :hammer:
