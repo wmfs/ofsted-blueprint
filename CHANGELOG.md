@@ -1,3 +1,5 @@
+## [1.15.1](https://github.com/wmfs/ofsted-blueprint/compare/v1.15.0...v1.15.1) (2026-08-12)
+
 ## [1.15.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.14.0...v1.15.0) (2025-10-21)
 
 ### Build system dependencies :hammer:
