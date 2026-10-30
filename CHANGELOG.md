@@ -1,3 +1,27 @@
+## [1.16.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.15.1...v1.16.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([ac48948](https://github.com/wmfs/ofsted-blueprint/commit/ac489481b5d74c0bfbea72fb8e08b086da78e5a4))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#965](https://github.com/wmfs/ofsted-blueprint/issues/965)) ([3532bd4](https://github.com/wmfs/ofsted-blueprint/commit/3532bd48aa5ebba6c6116aab90787d94c1977bea))
+* **deps-dev:** update dependency @wmfs/tymly to v1.317.1 ([#951](https://github.com/wmfs/ofsted-blueprint/issues/951)) ([3e7add2](https://github.com/wmfs/ofsted-blueprint/commit/3e7add2f97011955bf11561cd985f12d90dd8c55))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.53.1 ([#952](https://github.com/wmfs/ofsted-blueprint/issues/952)) ([c893996](https://github.com/wmfs/ofsted-blueprint/commit/c8939963320c178a0c5167fe96731faf5f8b3222))
+* **deps-dev:** update dependency @wmfs/tymly-pg-plugin to v1.348.1 ([#953](https://github.com/wmfs/ofsted-blueprint/issues/953)) ([bd46583](https://github.com/wmfs/ofsted-blueprint/commit/bd46583419bba6504b15840e868f3f51da777a76))
+* **deps-dev:** update dependency @wmfs/tymly-test-helpers to v1.24.1 ([#954](https://github.com/wmfs/ofsted-blueprint/issues/954)) ([d6c61a1](https://github.com/wmfs/ofsted-blueprint/commit/d6c61a1abda33018f70b746ff2b60911f96c3a3c))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#955](https://github.com/wmfs/ofsted-blueprint/issues/955)) ([6b3ca9b](https://github.com/wmfs/ofsted-blueprint/commit/6b3ca9bcb9ef26daf237a0992c4e0fbe336197c2))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#962](https://github.com/wmfs/ofsted-blueprint/issues/962)) ([3ef8e81](https://github.com/wmfs/ofsted-blueprint/commit/3ef8e812a82d962813f25d40d917c89f09c12479))
+* **deps-dev:** update dependency mocha to v12 ([#956](https://github.com/wmfs/ofsted-blueprint/issues/956)) ([b753b6f](https://github.com/wmfs/ofsted-blueprint/commit/b753b6fe2f02d8a646eae8e6bb4f4d95254fd6ef))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#959](https://github.com/wmfs/ofsted-blueprint/issues/959)) ([6bc5dad](https://github.com/wmfs/ofsted-blueprint/commit/6bc5dada9bc2d84ac695114909c66ad8c59572a3))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#960](https://github.com/wmfs/ofsted-blueprint/issues/960)) ([f78a0e1](https://github.com/wmfs/ofsted-blueprint/commit/f78a0e1a172812780c17b41950327bbf4494ebd4))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#961](https://github.com/wmfs/ofsted-blueprint/issues/961)) ([f3ba28f](https://github.com/wmfs/ofsted-blueprint/commit/f3ba28f7ac140ba05762428733a64e5063bce25c))
+* **deps:** Add missing dependencies [sc-33852] ([#963](https://github.com/wmfs/ofsted-blueprint/issues/963)) ([29db3af](https://github.com/wmfs/ofsted-blueprint/commit/29db3afac4177eddd0a7927a7493d0fcffe5e109))
+* **deps:** update dependency csv-parse to v7 [security] ([#958](https://github.com/wmfs/ofsted-blueprint/issues/958)) ([1f02c69](https://github.com/wmfs/ofsted-blueprint/commit/1f02c699db3d80d2699a913819a9593bdb599d95))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#966](https://github.com/wmfs/ofsted-blueprint/issues/966)) ([01ea930](https://github.com/wmfs/ofsted-blueprint/commit/01ea930cf26943375e6136d723a8bd7229d6c2c7))
+* use shared renovate preset [sc-34117] ([#964](https://github.com/wmfs/ofsted-blueprint/issues/964)) ([16fd5b2](https://github.com/wmfs/ofsted-blueprint/commit/16fd5b2f38c2069838c173da1945e130701b49af))
+
 ## [1.15.1](https://github.com/wmfs/ofsted-blueprint/compare/v1.15.0...v1.15.1) (2026-08-12)
 
 ## [1.15.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.14.0...v1.15.0) (2025-10-21)
