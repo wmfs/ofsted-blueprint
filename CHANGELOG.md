@@ -1,3 +1,10 @@
+## [1.17.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.16.0...v1.17.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.54.0 ([#967](https://github.com/wmfs/ofsted-blueprint/issues/967)) ([8c29b03](https://github.com/wmfs/ofsted-blueprint/commit/8c29b0323b6456c28f4a6aefa6030f4af88319f1))
+* **deps:** update dependency csv-parse to v7.0.3 ([#968](https://github.com/wmfs/ofsted-blueprint/issues/968)) ([96be946](https://github.com/wmfs/ofsted-blueprint/commit/96be946ac6237af2648394dacb12abbeaa3cd432))
+
 ## [1.16.0](https://github.com/wmfs/ofsted-blueprint/compare/v1.15.1...v1.16.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
